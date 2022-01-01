@@ -64,7 +64,7 @@ struct ExpressionStatement: Statement {
   Expression* expression;
 };
 
-// 논리 연산자 or, and
+// 논리 연산자 or, and (이항 연산자)
 // 멤버: 왼쪽 식, 오른쪽 식
 struct Or: Expression {
   Expression* lhs; // left hand side
@@ -75,7 +75,7 @@ struct And: Expression {
   Expression* rhs;
 };
 
-// 관계 연산자, 산술 연산자
+// 관계 연산자, 산술 연산자 (이항 연산자)
 // 멤버: 연산자의 종류, 왼쪽 피연산자 식, 오른쪽 피연산자 식
 struct Relational: Expression {
   Kind kind;
@@ -89,7 +89,7 @@ struct Arithmetic: Expression {
 };
 
 // 단항 연산자
-// 멤버: 연산자의 종류, 하나의 피연산자 식
+// 멤버: 연산자의 종류(+, -), 하나의 피연산자 식
 struct Unary: Expression {
   Kind kind;
   Expression* sub;
