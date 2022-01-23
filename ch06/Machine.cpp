@@ -26,8 +26,8 @@ auto execute(tuple<vector<Code>, map<string, size_t>> objectCode) -> void {
         // 함수명; 코드의 인자를 문자열로 변환
         auto name = toString(code.operand);
         // 함수명으로 함수 테이블을 검색해 함수의 주소를 피연산자 스택에 넣음
-        if (global.count(name))
-          pushOperand(global[name]);
+        if (functionTable.count(name))
+          pushOperand(functionTable[name]);
         else if (global.count(name))
           pushOperand(global[name]);
         else if (builtinFunctionTable.count(name))
