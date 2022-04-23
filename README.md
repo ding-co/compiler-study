@@ -18,4 +18,4 @@
 
 #
 
-[ding-co 블로그](https://ding-co.tistory.com/category/Computer%20Science/%EC%BB%B4%ED%8C%8C%EC%9D%BC%EB%9F%AC%20%EB%A7%8C%EB%93%A4%EA%B8%B0)
+[ding-co 블로그](https://ding-co.tistory.com/category/Computer%20Science/%EC%BB%B4%ED%8C%8C%EC%9D%BC%EB%9F%AC%20%EB%A7%8C%EB%93%A4%EA%B8%B0%20%E2%9C%94%EF%B8%8F)
